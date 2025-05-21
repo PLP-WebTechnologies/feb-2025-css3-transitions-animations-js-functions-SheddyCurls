@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Animation Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Animation Demo</h1>
+    <div class="controls">
+      <button id="animateBtn">Trigger Animation</button>
+      <div class="color-picker">
+        <label for="colorSelect">Choose a color:</label>
+        <select id="colorSelect">
+          <option value="#4CAF50">Green</option>
+          <option value="#2196F3">Blue</option>
+          <option value="#FF5722">Orange</option>
+          <option value="#9C27B0">Purple</option>
+        </select>
+      </div>
+    </div>
+    <div id="animatedBox" class="animated-box"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
